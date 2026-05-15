@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: wealthos-backend
+  datasource:
+    url:      ${DATABASE_URL:jdbc:postgresql://localhost:5432/wealthos_db}
+    username: ${DATABASE_USER:postgres}
+    password: ${DATABASE_PASSWORD:postgres}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  flyway:
+    enabled: false
+
+server:
+  port: 8080
+
+anthropic:
+  api-key: ${ANTHROPIC_API_KEY:demo-mode-no-key}
+
+app:
+  jwt:
+    secret:        ${JWT_SECRET:change-this-in-production-use-256-bit-key}
+    expiration-ms: 86400000   # 24h
+
+logging:
+  level:
+    com.gabrieldev.wealthos: INFO

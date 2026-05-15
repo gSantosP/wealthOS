@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─────────────────────────────────────────────────────────────
+   DESIGN TOKENS — mude aqui para alterar cores/fonte globalmente
+   ───────────────────────────────────────────────────────────── */
+:root {
+  /* Fonte principal — troque 'Outfit' por 'Inter' ou qualquer outra */
+  --font-sans:    'Outfit', sans-serif;
+  --font-display: 'Syne', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* Backgrounds */
+  --bg:    #07080d;
+  --bg2:   #0a0d12;
+  --bg3:   #0f1218;
+
+  /* Cor de destaque (accent) — troque para mudar o roxo/índigo */
+  --accent:      #818cf8;
+  --accent-2:    #818cf8;
+  --accent-bg:   rgba(99, 102, 241, 0.08);
+  --accent-border: rgba(99, 102, 241, 0.25);
+  --accent-glow:   rgba(99, 102, 241, 0.35);
+
+  /* Status */
+  --green:  #10b981;
+  --red:    #f43f5e;
+  --amber:  #f59e0b;
+  --blue:   #06b6d4;
+
+  /* Texto */
+  --text:   #eef0f8;
+  --text-2: #a1a1aa;
+  --muted:  #52525b;
+}
+
+/* ──────────────────────────────────────────────────────────── */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html { font-size: 14px; }
+
+  body {
+    background:  var(--bg);
+    color:       var(--text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar        { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track  { background: transparent; }
+  ::-webkit-scrollbar-thumb  { background: rgba(255,255,255,0.1); border-radius: 2px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.2); }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; }
+
+  select { appearance: none; }
+}

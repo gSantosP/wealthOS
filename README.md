@@ -2,9 +2,17 @@
 
 > A full-stack SaaS application that gives users complete visibility over their financial life — with AI-powered insights, real-time spending analysis, and goal tracking.
 
-**[Live Demo →](https://wealthos.gabriel-dev.com)** &nbsp;·&nbsp; **[Watch 60s Demo Video →](#)**
+<img width="1917" height="945" alt="Captura de tela 2026-05-15 181208" src="https://github.com/user-attachments/assets/c0ce9056-51e7-4254-87e4-6b3be2061944" />
+<img width="1917" height="945" alt="Captura de tela 2026-05-15 181429" src="https://github.com/user-attachments/assets/562fc521-bf90-4172-ad84-e5d9c3bcfefe" />
+<img width="1915" height="945" alt="Captura de tela 2026-05-15 181402" src="https://github.com/user-attachments/assets/928de7ae-0ec6-490a-af07-ed13e711661f" />
+<img width="1908" height="942" alt="Captura de tela 2026-05-15 181356" src="https://github.com/user-attachments/assets/6ebae7f5-3200-47fa-b50a-d3f5d75a215f" />
+<img width="1919" height="860" alt="Captura de tela 2026-05-15 181348" src="https://github.com/user-attachments/assets/0898fb84-0464-4828-8afd-3f293a6f313a" />
+<img width="1915" height="945" alt="Captura de tela 2026-05-15 181340" src="https://github.com/user-attachments/assets/ee39903c-416a-41f7-a83b-de3b3fb121c4" />
+<img width="1915" height="945" alt="Captura de tela 2026-05-15 181330" src="https://github.com/user-attachments/assets/7ab61290-7ed2-4d25-afb9-360eb3c9d4d8" />
+<img width="1917" height="947" alt="Captura de tela 2026-05-15 181307" src="https://github.com/user-attachments/assets/7ee4993f-6040-4e20-ad24-1edc96884105" />
+<img width="1915" height="943" alt="Captura de tela 2026-05-15 181240" src="https://github.com/user-attachments/assets/616e13d3-e3cc-4669-9cfe-9306519f2852" />
+<img width="1915" height="945" alt="Captura de tela 2026-05-15 181221" src="https://github.com/user-attachments/assets/b4651912-5b68-4f7c-845a-f32531256602" />
 
-![WealthOS Dashboard Preview](./preview.png)
 
 ---
 
